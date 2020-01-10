@@ -1,8 +1,8 @@
 import { Observable } from 'rxjs';
-import { Travel } from './../../travel.model';
-import { FirestoreService } from './../../services/firestore.service';
+import { Travel } from './../travel.model';
+import { FirestoreService } from './../services/firestore.service';
 import { Router } from '@angular/router';
-import { AuthenticateService } from './../../services/authentication.service';
+import { AuthenticateService } from './../services/authentication.service';
 import { NavController } from '@ionic/angular';
 import { Component, OnInit } from '@angular/core';
 
