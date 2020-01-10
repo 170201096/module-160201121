@@ -1,4 +1,4 @@
-import { AppPage } from './../../../e2e/src/app.po';
+import { AppPage } from './../../../../e2e/src/app.po';
 import { Injectable } from "@angular/core";
 import * as firebase from 'firebase/app';
 @Injectable()
